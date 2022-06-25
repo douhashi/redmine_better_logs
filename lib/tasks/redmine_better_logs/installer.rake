@@ -15,10 +15,12 @@ module RedmineBetterLogs
       end
 
       def disable
+        Setting.send("plugin_redmine_better_logs=", { 'enabled': false })
         comment_lines(env_file, /# redmine_better_logs/)
       end
 
       def enable
+        Setting.send("plugin_redmine_better_logs=", { 'enabled': true })
         uncomment_lines(env_file, /# redmine_better_logs/)
       end
 

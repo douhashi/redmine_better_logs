@@ -14,3 +14,21 @@ This plugin changes Redmine logs to JSON format.
     ```
 
 3. restart redmine
+
+## Enable / Disable plugin
+
+* Enable
+
+```
+bin/rails redmine_better_logs:enable RAILS_ENV=production
+```
+
+and restart redmine
+
+* Disable
+
+```
+bin/rails redmine_better_logs:disable RAILS_ENV=production
+```
+
+and restart redmine
