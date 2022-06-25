@@ -7,7 +7,10 @@ This plugin changes Redmine logs to JSON format.
 1. Copy `redmine_better_logs` directory into the plugin directory.
 2. Run install commands below:
 
+    ```
     bundle install
-    bin/rails redmine_better_logs:install
+
+    bin/rails redmine_better_logs:install RAILS_ENV=production
+    ```
 
 3. restart redmine
