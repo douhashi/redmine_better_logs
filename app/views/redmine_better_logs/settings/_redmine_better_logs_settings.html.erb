@@ -1,0 +1,11 @@
+<table>
+  <tbody>
+    <tr>
+      <th>Status: </th>
+      <td>
+        <%= settings['enabled'] ? 'Enabled' : 'Disabled' %>
+        <%= check_box_tag 'settings[enabled]', true, settings['enabled'] %>
+      </td>
+    </tr>
+  </tbody>
+</table>
