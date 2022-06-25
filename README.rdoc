@@ -1,3 +1,0 @@
-= redmine_better_logs
-
-Description goes here
