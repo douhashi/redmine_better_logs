@@ -32,3 +32,15 @@ bin/rails redmine_better_logs:disable RAILS_ENV=production
 ```
 
 and restart redmine
+
+## Uninstall
+
+1. Disable
+
+    ```
+    bin/rails redmine_better_logs:disable RAILS_ENV=production
+    ```
+
+2. Remove redmine_better_logs from plugins directory
+
+
